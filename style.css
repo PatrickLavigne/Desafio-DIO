@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    color: white;
+}
+
+.container{
+    width: 1300px;
+    height: 3000px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box{
+    background-color: black;
+    width: 1250px;
+    height: 1000px;
+    padding: 20px;
+    border: 0px solid white;
+}
+/*Janela 1 -INICIO--------------------------------*/
+/*Janela 1 ---------------------------------*/
+#janela1{
+    width: 1250px;
+    height: 620px;
+    padding: 20 px;
+    background: url(/img/fundo\ vasco3.webp);
+    background-size: cover;
+}
+
+.banner1{
+    width: 50%;
+    height: 70%;
+    padding: 10px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    
+}
+
+.inscrever{
+    
+    width: 20%;   
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.logovasco{
+    padding-left: 25%;
+}
+
+#Logo-Vasco{
+    width: 50%;
+    height: 60%;        
+}
+
+.Titulo1{
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+/*Janela 1 -FIM-------------------------------*/
+/*Janela 1 ---------------------------------*/
+
+
+/*Janela 2 -INICIO-------------------------------*/
+/*Janela 2 ---------------------------------*/
+#janela2{
+    width: 1250px;
+    height: 620px;
+    padding: 20 px;
+    background: url(/img/saojanuarionoite2.jpg);
+    background-size: cover;
+}
+
+.textosocio{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    text-transform: uppercase;
+}
+.boxsocios{
+    width: 1200px;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.janelasocios{
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+    margin: 1%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#sociotorcedor{
+    text-align: center;
+    display:block;
+    background-color: rgba(255, 0, 0, 0.137);
+    border-radius: 80px;
+}
+
+#textosocio{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-decoration:double;
+}
+
+#fotosocios{
+    width: 60%;
+}
+
+#fotocasal{
+    width: 60%;
+    height: 60%;
+}
+
+#fotofamilia{
+    width: auto;
+    height: 60%;
+}
+
+/*Janela 2 -FIM-------------------------------*/
+/*Janela 2 ---------------------------------*/
+
+/*Janela 3 -INICIO-------------------------------*/
+/*Janela 3 ---------------------------------*/
+
+#fotovasco{
+    display:flexbox;
+    height: 15%;
+    align-items: center;
+}
+
+#textofotosj{
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+#fotosj{
+    width: 100%;
+    height: 500px;
+}
+
+/*Janela 3 -FIM-------------------------------*/
+/*Janela 3 ---------------------------------*/
+
+/*Janela 4 -INICIO-------------------------------*/
+/*Janela 3 ---------------------------------*/
+
+.boxcontatos{
+    width: auto;
+    height: 600px;
+    /*border: 3px solid blue;*/
+
+    display: flex;
+    flex-direction: row;
+}
+
+.janelacontatos{
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    margin: 1%;
+    /*border: 1px solid blue;*/
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Contatos{
+    color: red;
+}
+
+#textoredessociais{
+    color: white;
+    margin: 0 auto;
+    font-size: xx-large;
+    
+}
+.logos{
+    display: block;
+    align-items: center;
+}
+
+#textosociais{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logofotos{
+    width: 30%;
+    display: inline-flexbox;
+    margin: 6px;
+    padding-top: 25px;
+}
+
+.gps{
+    margin-left: 40%;
+}
+
+#gpsfoto{
+
+    width: 30%;
+    display: flex;
+    margin: 6px;
+    padding-top: 25px;
+}
+
+.fotofinal{
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Final Pagina Contatos-----------------*/
+/*Inicio Pagina final------------------*/
+
+.final{
+    text-align: center;
+    background-color: white;
+    margin: 1px solid blue;
+    width: 1300px;
+    color: red;
+}
